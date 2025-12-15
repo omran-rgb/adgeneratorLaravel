@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class questions extends Model
+{
+    //
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var list<string>
+     */
+     protected $fillable = [
+        'qus_title',
+        'qus_body',
+        'qus_type',
+    ];
+}
