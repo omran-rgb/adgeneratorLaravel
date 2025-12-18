@@ -13,8 +13,8 @@ class questions extends Model
      * @var list<string>
      */
      protected $fillable = [
-        'qus_title',
-        'qus_body',
-        'qus_type',
+        'title',
+        'content',
+        'options',
     ];
 }
